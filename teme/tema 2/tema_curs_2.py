@@ -12,7 +12,7 @@ print(lista_ordonata_descendent)
 
 print(lista_ordonata_ascendent[1::2])
 
-print(lista_ordonata_ascendent[0::2],'\n')
+print(lista_ordonata_ascendent[0::2], '\n')
 
 for number in lista:
     if number > 3 and number % 3 == 0:
