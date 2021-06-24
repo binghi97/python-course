@@ -45,6 +45,9 @@ class Person(Animal):
         if new_friend:
             self.friends.add(new_friend)
 
+    def speak(self):
+        print('Hello')
+
 
 cat = Animal(4)
 print(cat)
@@ -77,6 +80,8 @@ maria.add_friends("George")
 maria.add_friends("George")
 
 print(maria.get_friends())
+
+maria.speak()
 
 
 
